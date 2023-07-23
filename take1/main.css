@@ -78,14 +78,16 @@ h1 {
 
 #color-value {
     color: rgb(0, 153, 255);
+    letter-spacing: 5px;
 }
 
 .btn {
     margin-top: 2rem;
     font-size: 1rem;
-    padding: .5rem 1rem;
+    padding: .75rem 1.25rem;
     border-radius: 1rem;
-    border-color: black;
+    display: inline-block;
+    border: 2px solid black;
     background-color: transparent;
     transition: all ease 1s;
     text-transform: uppercase;
